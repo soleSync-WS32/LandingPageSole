@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoleSync</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/logoSole.png" alt="Logo" width="100">
+            <span class="company-name">SoleSync</span>
+        </div>
+        <ul class="navbar-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#" class="btn btn-primary">Regístrate</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Banner -->
+<section class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="banner-content">
+                    <h1>Bienvenido a SoleSync</h1>
+                    <p>Tu compañero para una vida activa y saludable</p>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        <a href="#home" class="btn btn-primary">Registrate</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="banner-image">
+                    <img src="images/banner-za.jpg" alt="Imagen de banner">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Sección Nosotros -->
+<section class="container my-5 text-center nosotros-section" id="nosotros">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Nosotros</h2>
+            <p>Somos una startup dedicada a la promoción de la vida activa y saludable a través de la innovación y la tecnología. Nuestro producto de zapatos inteligentes, SoleSync, es el resultado de nuestra pasión por empoderar a las personas y mejorar su bienestar. En un mundo donde la inactividad y la falta de actividad física son desafíos significativos para la salud, SoleSync está comprometida con la promoción de estilos de vida más saludables.</p>
+            <a href="#" class="btn btn-primary">Leer más</a>
+        </div>
+        <div class="col-md-6">
+            <img src="images/nosotros.jpg" alt="Imagen de Nosotros" class="nosotros-image">
+        </div>
+    </div>
+</section>
+
+
+<!-- Cards de Servicios -->
+<section class="container my-5 text-center" id="servicios">
+    <h2>Servicios</h2>
+    <p>SoleSync ofrece diversos servicios en la aplicación</p>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card service-card">
+                <img src="images/personsc.jpg" class="card-img-top" alt="Imagen de Servicio 1">
+                <div class="card-body">
+                    <h5 class="card-title">Seguimiento de actividad física</h5>
+                    <p class="card-text">Nuestras zapatillas pueden rastrear toda su actividad física del usuario, como por ejemplo la distacia que recorrió.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card service-card">
+                <img src="images/monitoreo.jpg" class="card-img-top" alt="Imagen de Servicio 2">
+                <div class="card-body">
+                    <h5 class="card-title">Monitoreo sobre su salud</h5>
+                    <p class="card-text">Gracias a los sensores que se encuentran en las zapatillas pueden proporcionar datos con exactitud sobre la salud del usuario.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card service-card">
+                <img src="images/analisissa.jpg" class="card-img-top" alt="Imagen de Servicio 3">
+                <div class="card-body">
+                    <h5 class="card-title">Análisis de salud</h5>
+                    <p class="card-text">Proporcionamos información util sobre todo su proceso mensual con gráficos para que pueda ser facil de entender.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contacto -->
+<section class="container my-5" id="contacto">
+    <h2 class="text-center">Contacto</h2>
+    <p class="text-center">Si tienes alguna inquietud sobre nuestro producto, no dudes en escribirnos</p>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-3 contact-card">
+                <img src="images/email.png" class="card-img-top reducir-imagen" alt="Imagen de Email" style="width: 90px; height: 90px;">
+                <div class="card-body">
+                    <h5 class="card-title">Contacto por Email</h5>
+                    <p class="card-text">
+                        <i class="fas fa-envelope"></i> solesync@iqclothing.com
+                    </p>
+                </div>
+            </div>
+            <div class="card contact-card">
+                <img src="images/telefono.png" class="card-img-top reducir-imagen" alt="Imagen de Teléfono" style="width: 90px; height: 90px;">
+                <div class="card-body">
+                    <h5 class="card-title">Número de Teléfono</h5>
+                    <p class="card-text">
+                        <i class="fas fa-phone"></i> +51 936 284 000
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card contact-card">
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea class="form-control" id="mensaje" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="container-fluid bg-dark text-light py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h3>IQClothing</h3>
+                <h5>SoleSync</h5>
+                <p>Somos una empresa que promueve la vida saludable.</p>
+                <p>Síguenos en nuestras redes sociales:</p>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+            </div>
+            <div class="col-md-3">
+                <h4>SoleSync</h4>
+                <ul>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Equipo</a></li>
+                    <li><a href="#">Politica de Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>Nuestros servicios</h4>
+                <ul>
+                    <li><a href="#">Seguimiento</a></li>
+                    <li><a href="#">Monitoreo</a></li>
+                    <li><a href="#">Análisis</a></li>
+                    <li><a href="#">Guia de uso</a></li>
+                    <li><a href="#">Soporte</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>Suscribase</h4>
+                <form>
+                    <p>Para obtener más información sobre SoleSync.</p>
+                    <div class="d-flex align-items-center">
+                        <div class="form-group mb-0">
+                            <input type="email" class="form-control" placeholder="email">
+                        </div>
+                        <button type="submit" class="btn btn-primary ml-2">Suscribirse</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center">
+                    © Copyright 2023 SoleSync. All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+

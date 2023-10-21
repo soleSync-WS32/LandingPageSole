@@ -1,0 +1,197 @@
+header {
+    background-color: #839BBD;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    margin-left: 20px;
+}
+
+.company-name {
+    font-size: 26px;
+    margin-left: 10px;
+    color: #1A54CA;
+    font-weight: bold;
+}
+
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.navbar-links li {
+    margin: 0 15px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* Estilo para el botón de registro */
+.btn.btn-primary {
+    background-color: #1A54CA;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+.banner {
+    background-color: #839BBD;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+.banner-content {
+    margin-bottom: 20px;
+}
+
+
+.banner-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.banner h1 {
+    font-size: 68px;
+    text-align: left;
+}
+
+.banner p {
+    font-size: 25px;
+    text-align: left;
+}
+
+
+
+/* Estilo para los títulos de sección */
+h2 {
+    color: #3498db;
+}
+
+/* Estilo para los botones */
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+}
+
+.nosotros-section p {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.nosotros-image {
+    max-width: 60%;
+    height: auto;
+}
+
+.nosotros-section h2{
+    text-align: left;
+}
+
+
+
+.service-card {
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.service-card .card-title {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.service-card .card-text {
+    font-size: 16px;
+}
+
+
+.service-card:hover {
+    background-color: #f8f8f8;
+}
+
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.card.contact-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    margin: 10px;
+}
+
+/* Estilo para el texto dentro del card */
+.card.contact-card .card-body {
+    padding: 20px;
+}
+
+
+.card.contact-card .card-img-top {
+    max-height: 90px;
+    object-fit: cover;
+}
+
+
+.card.contact-card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+.card.contact-card .card-text {
+    font-size: 16px;
+}
+
+
+
+/* Estilo para el formulario de contacto */
+footer form {
+    padding: 20px;
+}
+
+footer {
+    background-color: #839BBD;
+    color: white;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #3498db;
+}
+
+
